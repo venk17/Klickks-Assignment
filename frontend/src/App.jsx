@@ -5,7 +5,7 @@ import Register from './components/Register.jsx';
 import Dashboard from './components/Dashboard.jsx';
 
 // Configure axios defaults
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://klickks-assignment-ihpd.onrender.com/api';
 axios.defaults.withCredentials = true;
 
 function App() {
